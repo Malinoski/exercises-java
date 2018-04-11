@@ -1,5 +1,5 @@
 package exercises;
 
-public class Test2b {
+public class Test02b {
 
 }
