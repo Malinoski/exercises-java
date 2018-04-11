@@ -5,7 +5,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class Test02 {
+public class Test02a {
+	
+	// Google Drive: Estudos Livros > Java > exercises-java - Test01
 	
 	public class Dr implements Comparable<Dr>{
 		private Integer id;
@@ -57,7 +59,7 @@ public class Test02 {
 		Integer numberOfDr = 3;
 		
 		List<Dr> drs = new ArrayList<>();
-		Test02 container = new Test02();
+		Test02a container = new Test02a();
 		drs.add(container.new Dr(4,11));
 		drs.add(container.new Dr(2,15));
 		drs.add(container.new Dr(5,16));
@@ -68,7 +70,7 @@ public class Test02 {
 		
 		List<Integer> maintance = new ArrayList<>(Arrays.asList(1,5,9));
 		
-		Test02.solution(numberOfDr, drs, maintance);
+		Test02a.solution(numberOfDr, drs, maintance);
 	}
 	
 	public static List<Integer> solution(Integer numberOfDr, List<Dr> drs, List<Integer> maintance) {
